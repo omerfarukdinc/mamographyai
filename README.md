@@ -8,4 +8,5 @@ As seen in the algorithm below, the mediolateral oblique (MLO) and craniocaudal 
 Results and Analysis:
 After the training phase, the weights obtained were used to test the system with 1200 patients. In the testing system, the BI-RADS classes were distributed equally. No data augmentation was performed in the dataset. When examining patient images, it was observed that there were some noisy images. Therefore, during training, we introduced noise to the images with a probability of 0.2 to train the algorithm. The learning of the algorithm was completed with a learning rate of 10-5 (gradient learning rate) and 122 epochs. To evaluate the results, the patient's BI-RADS classes, breast composition, and quadrant information were used to calculate recall and precision values, which are shown in Table-1. Due to the unequal distribution of the numbers of breast compositions in the data classes, a low F1-score was observed in breast composition [5].
 
-![mamo_omer](https://github.com/omerfarukdinc/mamographyai/assets/96438908/cc411bcf-4ee5-40c4-9e0e-540c200578aa)
+![Resim3](https://github.com/omerfarukdinc/mamographyai/assets/96438908/19f412ef-2bf2-4bd8-a928-7f4ce61a982e)
+
